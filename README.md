@@ -2,6 +2,10 @@
 
 A modern, responsive portfolio website built with React and Vite, showcasing my frontend development skills and projects.
 
+## 🌐 Live Demo
+
+**[View Live Portfolio →](https://bekam-s-portfolio-bpcz-46ipo8ftr-bekam-bits-projects.vercel.app/)**
+
 ## 🚀 Features
 
 - **Modern Design**: Clean, professional interface with dark/light theme support
