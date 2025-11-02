@@ -1,0 +1,119 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#1a1f30"/>
+  
+  <!-- Gradient Overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#grad1)"/>
+  
+  <!-- Browser Window Mockup -->
+  <rect x="100" y="80" width="1000" height="515" rx="12" fill="#252b3d" stroke="#3d4458" stroke-width="2"/>
+  
+  <!-- Browser Header -->
+  <rect x="100" y="80" width="1000" height="40" rx="12" fill="#2d3548"/>
+  <rect x="100" y="108" width="1000" height="12" fill="#2d3548"/>
+  
+  <!-- Browser Dots -->
+  <circle cx="125" cy="100" r="6" fill="#ff5f57"/>
+  <circle cx="150" cy="100" r="6" fill="#ffbd2e"/>
+  <circle cx="175" cy="100" r="6" fill="#28ca42"/>
+  
+  <!-- URL Bar -->
+  <rect x="220" y="90" width="760" height="20" rx="10" fill="#1a1f30"/>
+  <text x="240" y="104" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">https://rebel-rover.com</text>
+  
+  <!-- Main Content Area -->
+  <rect x="120" y="140" width="960" height="435" rx="8" fill="#f8fafc"/>
+  
+  <!-- Hero Image - Beach Scene -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fde68a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect x="120" y="140" width="960" height="250" fill="url(#skyGrad)"/>
+  
+  <!-- Sun -->
+  <circle cx="900" cy="220" r="50" fill="#fbbf24" opacity="0.9"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="300" cy="180" rx="40" ry="20" fill="white" opacity="0.8"/>
+  <ellipse cx="330" cy="180" rx="50" ry="25" fill="white" opacity="0.8"/>
+  <ellipse cx="360" cy="180" rx="40" ry="20" fill="white" opacity="0.8"/>
+  
+  <ellipse cx="700" cy="200" rx="35" ry="18" fill="white" opacity="0.7"/>
+  <ellipse cx="725" cy="200" rx="45" ry="22" fill="white" opacity="0.7"/>
+  <ellipse cx="750" cy="200" rx="35" ry="18" fill="white" opacity="0.7"/>
+  
+  <!-- Ocean -->
+  <rect x="120" y="320" width="960" height="70" fill="#0284c7"/>
+  <path d="M 120 340 Q 180 330, 240 340 T 360 340 T 480 340 T 600 340 T 720 340 T 840 340 T 960 340 T 1080 340" 
+        stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 120 355 Q 200 345, 280 355 T 400 355 T 520 355 T 640 355 T 760 355 T 880 355 T 1000 355 T 1080 355" 
+        stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Sand/Beach -->
+  <rect x="120" y="390" width="960" height="185" fill="url(#sandGrad)"/>
+  
+  <!-- Palm Trees -->
+  <!-- Left Palm Tree -->
+  <rect x="250" y="340" width="15" height="120" fill="#92400e" rx="3"/>
+  <ellipse cx="257" cy="330" rx="45" ry="25" fill="#15803d" transform="rotate(-30 257 330)"/>
+  <ellipse cx="257" cy="330" rx="45" ry="25" fill="#15803d" transform="rotate(30 257 330)"/>
+  <ellipse cx="257" cy="330" rx="45" ry="25" fill="#16a34a" transform="rotate(0 257 330)"/>
+  <ellipse cx="257" cy="330" rx="45" ry="25" fill="#16a34a" transform="rotate(-60 257 330)"/>
+  <ellipse cx="257" cy="330" rx="45" ry="25" fill="#16a34a" transform="rotate(60 257 330)"/>
+  
+  <!-- Right Palm Tree -->
+  <rect x="920" y="350" width="15" height="110" fill="#92400e" rx="3"/>
+  <ellipse cx="927" cy="340" rx="45" ry="25" fill="#15803d" transform="rotate(-30 927 340)"/>
+  <ellipse cx="927" cy="340" rx="45" ry="25" fill="#15803d" transform="rotate(30 927 340)"/>
+  <ellipse cx="927" cy="340" rx="45" ry="25" fill="#16a34a" transform="rotate(0 927 340)"/>
+  <ellipse cx="927" cy="340" rx="45" ry="25" fill="#16a34a" transform="rotate(-60 927 340)"/>
+  <ellipse cx="927" cy="340" rx="45" ry="25" fill="#16a34a" transform="rotate(60 927 340)"/>
+  
+  <!-- Navigation Bar on the mockup -->
+  <rect x="140" y="160" width="920" height="50" fill="white" opacity="0.95"/>
+  <text x="170" y="192" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b">Rebel Rover</text>
+  
+  <!-- Nav Links -->
+  <text x="700" y="192" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Home</text>
+  <text x="770" y="192" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Destinations</text>
+  <text x="880" y="192" font-family="Arial, sans-serif" font-size="14" fill="#64748b">About</text>
+  <text x="950" y="192" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Contact</text>
+  
+  <!-- Content Section -->
+  <rect x="140" y="480" width="920" height="75" fill="white" opacity="0.95"/>
+  
+  <!-- Heading -->
+  <text x="170" y="510" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Bora Bora, French Polynesia</text>
+  
+  <!-- Description -->
+  <text x="170" y="535" font-family="Arial, sans-serif" font-size="13" fill="#64748b">Discover paradise on earth with crystal-clear waters</text>
+  
+  <!-- CTA Button -->
+  <rect x="170" y="545" width="120" height="28" rx="6" fill="url(#grad2)"/>
+  <text x="195" y="565" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="white">Explore Now</text>
+  
+  <!-- Price Tag -->
+  <rect x="900" y="545" width="140" height="28" rx="6" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="920" y="565" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#8b5cf6">From $2,499</text>
+</svg>
+

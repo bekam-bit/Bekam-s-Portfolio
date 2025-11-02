@@ -1,0 +1,153 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0f1419"/>
+  
+  <!-- Gradient Overlay -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.15" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f30;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  
+  <!-- Monitor/Screen Frame -->
+  <rect x="150" y="60" width="900" height="555" rx="8" fill="#1a1f30" stroke="#2d3548" stroke-width="3"/>
+  
+  <!-- Screen Content Area -->
+  <rect x="165" y="75" width="870" height="525" rx="4" fill="#0f1419"/>
+  
+  <!-- Header Bar -->
+  <rect x="165" y="75" width="870" height="60" fill="url(#cardGrad)"/>
+  
+  <!-- Logo/Title -->
+  <text x="195" y="113" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="url(#purpleGrad)">Bekam Store</text>
+  
+  <!-- Nav Items -->
+  <text x="700" y="113" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Products</text>
+  <text x="800" y="113" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Cart</text>
+  <text x="870" y="113" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Account</text>
+  
+  <!-- Cart Icon with Badge -->
+  <circle cx="960" cy="105" r="18" fill="#8b5cf6"/>
+  <path d="M 952 100 L 952 110 L 968 110 L 968 100 M 954 100 L 954 98 L 966 98 L 966 100" stroke="white" stroke-width="2" fill="none"/>
+  <circle cx="972" cy="95" r="8" fill="#ef4444"/>
+  <text x="968" y="99" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">3</text>
+  
+  <!-- Main Content Area -->
+  <!-- Left Side - Dashboard/Stats -->
+  <rect x="195" y="165" width="320" height="140" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  
+  <!-- Stats Title -->
+  <text x="215" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0">Sales Overview</text>
+  
+  <!-- Chart Area - Line Graph -->
+  <path d="M 215 270 L 245 250 L 275 255 L 305 235 L 335 240 L 365 220 L 395 225 L 425 210 L 455 215 L 485 200" 
+        stroke="#8b5cf6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 215 270 L 245 260 L 275 265 L 305 255 L 335 258 L 365 248 L 395 250 L 425 240 L 455 242 L 485 235" 
+        stroke="#6366f1" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Data Points -->
+  <circle cx="245" cy="250" r="4" fill="#8b5cf6"/>
+  <circle cx="305" cy="235" r="4" fill="#8b5cf6"/>
+  <circle cx="365" cy="220" r="4" fill="#8b5cf6"/>
+  <circle cx="425" cy="210" r="4" fill="#8b5cf6"/>
+  <circle cx="485" cy="200" r="4" fill="#8b5cf6"/>
+  
+  <!-- Stats Cards Row 1 -->
+  <rect x="195" y="325" width="150" height="80" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  <text x="215" y="350" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Total Sales</text>
+  <text x="215" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8b5cf6">$55.9k</text>
+  
+  <rect x="365" y="325" width="150" height="80" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  <text x="385" y="350" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Orders</text>
+  <text x="385" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6366f1">$29.9k</text>
+  
+  <!-- Stats Cards Row 2 -->
+  <rect x="195" y="425" width="150" height="80" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  <text x="215" y="450" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">New Users</text>
+  <text x="215" y="480" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8b5cf6">$43.5k</text>
+  
+  <rect x="365" y="425" width="150" height="80" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  <text x="385" y="450" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Revenue</text>
+  <text x="385" y="480" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6366f1">$19.9k</text>
+  
+  <!-- Right Side - Revenue Chart -->
+  <rect x="545" y="165" width="460" height="340" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  
+  <!-- Chart Title -->
+  <text x="565" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0">Revenue Analytics</text>
+  
+  <!-- Legend -->
+  <rect x="565" y="210" width="12" height="12" rx="2" fill="#8b5cf6"/>
+  <text x="585" y="220" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">E-commerce</text>
+  
+  <rect x="680" y="210" width="12" height="12" rx="2" fill="#6366f1"/>
+  <text x="700" y="220" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Retail</text>
+  
+  <rect x="770" y="210" width="12" height="12" rx="2" fill="#ec4899"/>
+  <text x="790" y="220" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Wholesale</text>
+  
+  <!-- Area Chart -->
+  <!-- Purple Area -->
+  <path d="M 565 450 L 565 380 Q 620 360, 675 370 T 785 350 T 895 340 L 895 360 L 985 350 L 985 450 Z" 
+        fill="#8b5cf6" opacity="0.3"/>
+  <path d="M 565 380 Q 620 360, 675 370 T 785 350 T 895 340 L 895 360 L 985 350" 
+        stroke="#8b5cf6" stroke-width="3" fill="none"/>
+  
+  <!-- Blue Area -->
+  <path d="M 565 450 L 565 410 Q 620 395, 675 405 T 785 390 T 895 385 L 985 380 L 985 450 Z" 
+        fill="#6366f1" opacity="0.2"/>
+  <path d="M 565 410 Q 620 395, 675 405 T 785 390 T 895 385 L 985 380" 
+        stroke="#6366f1" stroke-width="3" fill="none"/>
+  
+  <!-- Pink Area -->
+  <path d="M 565 450 L 565 430 Q 620 420, 675 425 T 785 415 T 895 410 L 985 405 L 985 450 Z" 
+        fill="#ec4899" opacity="0.15"/>
+  <path d="M 565 430 Q 620 420, 675 425 T 785 415 T 895 410 L 985 405" 
+        stroke="#ec4899" stroke-width="2" fill="none"/>
+  
+  <!-- Y-axis labels -->
+  <text x="550" y="260" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">$60k</text>
+  <text x="550" y="310" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">$40k</text>
+  <text x="550" y="360" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">$20k</text>
+  <text x="550" y="410" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">$10k</text>
+  <text x="550" y="455" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">$0</text>
+  
+  <!-- X-axis labels -->
+  <text x="590" y="475" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Jan</text>
+  <text x="680" y="475" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Mar</text>
+  <text x="770" y="475" font-family="Arial, sans-serif" font-size="10" fill="#64748b">May</text>
+  <text x="860" y="475" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Jul</text>
+  <text x="950" y="475" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Sep</text>
+  
+  <!-- Bottom Stats Bar -->
+  <rect x="195" y="525" width="810" height="55" rx="8" fill="url(#cardGrad)" stroke="#2d3548" stroke-width="1"/>
+  
+  <!-- Stat Items -->
+  <text x="230" y="548" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Total Orders</text>
+  <text x="230" y="568" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0">1,234</text>
+  
+  <text x="420" y="548" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Avg Order Value</text>
+  <text x="420" y="568" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0">$45.32</text>
+  
+  <text x="630" y="548" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Conversion Rate</text>
+  <text x="630" y="568" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0">3.2%</text>
+  
+  <text x="850" y="548" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Active Users</text>
+  <text x="850" y="568" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0">892</text>
+  
+  <!-- Monitor Stand -->
+  <rect x="500" y="615" width="200" height="15" rx="4" fill="#1a1f30"/>
+  <rect x="550" y="630" width="100" height="30" rx="4" fill="#1a1f30"/>
+</svg>
+
