@@ -899,6 +899,132 @@ body {
   color: var(--muted-foreground);
 }
 
+/* Certificates Section Styles */
+.certificates-section {
+  padding: 6rem 0;
+  background-color: var(--background);
+}
+
+.certificates-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.certificates-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .certificates-title {
+    font-size: 3.5rem;
+  }
+}
+
+.certificates-subtitle {
+  font-size: 1.125rem;
+  color: var(--muted-foreground);
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .certificates-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .certificates-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .certificates-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--card), var(--card-light));
+  transition: all 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.certificate-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6);
+  border-color: var(--primary);
+}
+
+.certificate-content {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.certificate-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+}
+
+.certificate-issuer {
+  font-size: 0.95rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.certificate-date {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.certificate-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--secondary);
+  color: var(--foreground);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.certificate-card:hover .certificate-action {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  color: var(--primary-foreground);
+  transform: translateY(-2px);
+}
+
+.download-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
 /* Connect Section Styles */
 .connect-section {
   padding: 6rem 0;

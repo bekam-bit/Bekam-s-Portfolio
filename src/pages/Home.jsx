@@ -3,6 +3,7 @@ import { HeroSection } from "../components/HeroSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
+import { CertificatesSection } from "../components/CertificatesSection";
 import { ConnectSection } from "../components/ConnectSection";
 import { Footer } from "../components/Footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <ProjectsSection />
         <AboutSection />
         <SkillsSection />
+        <CertificatesSection />
         <ConnectSection />
       </main>
 
