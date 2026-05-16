@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
 
 ## 🌐 Live Demo
 
-**[View Live Portfolio →](https://bekam-s-portfolio-bpcz-7q3xj9pha-bekam-bits-projects.vercel.app/)**
+**[View Live Portfolio →](https://bekam-s-portfolio-bpcz-ej9fk0bhl-bekam-bits-projects.vercel.app/)**
 
 ## 🚀 Features
 
