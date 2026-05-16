@@ -821,6 +821,37 @@ body {
   }
 }
 
+.skills-groups {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-group-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--card), var(--card-light));
+}
+
+.skills-group-header {
+  margin-bottom: 1.25rem;
+}
+
+.skills-group-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 0.35rem;
+}
+
+.skills-group-subtitle {
+  font-size: 0.95rem;
+  color: var(--muted-foreground);
+}
+
 .skill-card-item {
   display: flex;
   flex-direction: column;

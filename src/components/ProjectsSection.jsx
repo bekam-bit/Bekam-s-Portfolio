@@ -18,7 +18,30 @@ const PROJECTS_DATA = [
     liveLink: "https://youtu.be/bDBu_rNyulg",
     codeLink: "https://github.com/bekam-bit/Bekam-shopping-cart-project",
   },
-  // Add more projects here
+  {
+    title: "Library Management System",
+    description: "A comprehensive library management platform that simplifies book cataloging, borrowing, loan tracking, member management, fine handling, and request approval workflows. The system provides organized role-based access for admins, staff, and members.",
+    imageUrl: "/images/project-library-management-system.png",
+    techStack: ["Django", "HTML5", "CSS3", "JavaScript"],
+    liveLink: "https://gdg-django-week-6.onrender.com/",
+    codeLink: "https://github.com/bekam-bit/gdg-django-week-6-",
+  },
+  {
+    title: "Micro Learning Challenge App",
+    description: "A micro-learning platform designed to deliver structured learning experiences through interactive lessons, quizzes, challenges, and daily activities. Supports personalized progress tracking, streak and point-based motivation, and performance monitoring.",
+    imageUrl: "/images/project-micro-learning-challenge-app.png",
+    techStack: ["Django", "Python", "JavaScript", "CSS3"],
+    liveLink: "https://learning-challenge.onrender.com",
+    codeLink: "https://github.com/bekam-bit/Micro_Learning_Challenge_App-",
+  },
+  {
+    title: "TriageSync",
+    description: "An AI-powered medical triage platform that helps healthcare facilities prioritize patient care through intelligent symptom analysis and real-time monitoring.",
+    imageUrl: "/images/project-triage-sync.png",
+    techStack: ["Django", "Python", "AI", "Healthcare"],
+    liveLink: "https://django-backend-subb.onrender.com",
+    codeLink: "https://github.com/GDG-Hackaton-G8-Triage-Sync/Django-Backend",
+  },
 ];
 
 export function ProjectsSection() {

@@ -42,25 +42,29 @@ export function AboutSection() {
           About Me
         </h2>
         <p className="about-tagline">
-          Passionate about creating digital experiences that make a difference
+          Passionate about building full stack web solutions that make a difference
         </p>
       </div>
 
       <div className="about-content">
         <h3 className="about-intro-title">
-          Hello, I'm a Frontend Developer
+          Hello, I'm a Full Stack Web Developer
         </h3>
 
         <p className="about-text">
-          I'm a frontend developer with a passion for building beautiful, functional web applications. With expertise in React and JavaScript, I create engaging user interfaces through clean code and thoughtful design.
+          I'm a full stack web developer with a passion for building beautiful, functional web applications. With expertise in React and Django, I create engaging user experiences backed by reliable and scalable systems.
         </p>
 
         <p className="about-text">
-          My journey in web development has led me to work on diverse projects, from travel platforms to e-commerce solutions. I also have knowledge of backend technologies including Python, MySQL, and MongoDB, and I'm working towards becoming a full-stack developer with React/Next.js and Django.
+          I'm also an A2SVian, which has strengthened my data structures and algorithms foundation through consistent problem solving. I have solved more than 300 LeetCode problems and over 100 Codeforces problems, which helped me build strong analytical thinking and a disciplined approach to development.
         </p>
 
         <p className="about-text">
-          I believe in continuous learning and staying updated with the latest industry trends. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+          My journey in web development has led me to work on diverse projects. My e-commerce and LMS systems are personal projects, while the rest were team projects completed through GDG capstone and hackathon programs. Travel and Micro Learning were capstone projects, and TriageSync was built during a hackathon.
+        </p>
+
+        <p className="about-text">
+          I enjoy turning ideas into practical products with clean architecture, responsive design, and efficient backend logic. I believe in continuous learning and staying updated with the latest industry trends, whether that means improving my stack, exploring new technologies, or building solutions that help people work smarter.
         </p>
       </div>
 

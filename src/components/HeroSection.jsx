@@ -12,12 +12,12 @@ export function HeroSection() {
 
         {/* Main Heading */}
         <h1 className="hero-title">
-          Frontend Developer
+          Full Stack Web Developer
         </h1>
 
         {/* Sub-heading/Description */}
         <p className="hero-description">
-          I craft beautiful, functional web experiences that bring ideas to life. Specializing in React and JavaScript, with backend knowledge in Python, MySQL, and MongoDB.
+          I build beautiful, functional web applications that bring ideas to life. Specializing in React and Django, with a strong focus on clean interfaces, reliable backend systems, and smooth user experiences.
         </p>
 
         {/* Action Buttons */}
@@ -36,7 +36,7 @@ export function HeroSection() {
           <a href="https://github.com/bekam-bit" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" className="social-link">
             <Github className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/bekam-yoseph" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="social-link">
+          <a href="https://www.linkedin.com/in/bekam-yoseph-771123296/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="social-link">
             <Linkedin className="icon" />
           </a>
         </div>
